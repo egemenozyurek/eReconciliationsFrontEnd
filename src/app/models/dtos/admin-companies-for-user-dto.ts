@@ -1,4 +1,4 @@
-export interface Company {
+export interface AdminCompaniesForUserDto {
     id: number;
     name: string;
     address: string;
@@ -6,5 +6,6 @@ export interface Company {
     taxIdNumber: string;
     identityNumber: string;
     addedAt: string;
-    isActive: boolean;
+    isActive: boolean
+    isTrue: boolean;
 }
